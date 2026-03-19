@@ -10,3 +10,42 @@ header {
     padding: 15px;
     background: black;
   }
+  .logo {
+    font-weight: bold;
+  }
+  .menu-toggle {
+    cursor: pointer;
+  }
+  nav {
+    background: #222;
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .hidden {
+    display: none;
+  }
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .hero button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .features {
+    padding: 20px;
+  }
+  .feature {
+    background: #222;
+    margin: 10px 0;
+    padding: 15px;
+  }
