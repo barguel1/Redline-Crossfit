@@ -705,6 +705,10 @@ nav a:hover {
   background: var(--color-primary);
   color: var(--color-text-inverse);
 }
+.plan-btn--featured:hover {
+  background: var(--color-primary-dark);
+  box-shadow: 0 0 16px var(--color-primary-glow);
+}
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
   background: var(--color-bg-footer);
