@@ -668,7 +668,7 @@ nav a:hover {
   letter-spacing: 0.04em;
 }
 .plan-features {
-  list-style: none;
+  list-style: square;
   margin: 0 0 28px;
   padding: 0;
   flex-grow: 1;
