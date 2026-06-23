@@ -689,6 +689,14 @@ nav a:hover {
   color: var(--color-primary);
   font-weight: 700;
 }
+.plan-btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
   background: var(--color-bg-footer);
