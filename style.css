@@ -211,6 +211,15 @@ nav a:hover {
   max-width: 800px;
   margin: 0 auto;
 }
+.about h1 {
+  font-family: 'Oswald', Arial, sans-serif;
+  text-align: center;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 40px;
+  color: var(--color-text-inverse);
+}
 
 
 /* ----------------------------------------------------------------------------------------- */
