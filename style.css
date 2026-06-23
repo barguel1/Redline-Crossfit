@@ -180,7 +180,7 @@ nav a:hover {
   color: var(--color-text-inverse);
 }
 
-/* feature page----------------------------------------------------------------------------------------- */
+/* feature ----------------------------------------------------------------------------------------- */
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -283,4 +283,17 @@ nav a:hover {
   border-color: var(--color-primary);
 }
 
-/* ----------------------------------------------------------------------------------------- */
+/* programs page----------------------------------------------------------------------------------------- */
+.programs-hero {
+  padding: 60px 24px 40px;
+  text-align: center;
+  background: linear-gradient(160deg, #1a0000 0%, var(--color-bg) 60%);
+  border-bottom: 1px solid var(--color-border);
+}
+.programs-hero h1 {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
