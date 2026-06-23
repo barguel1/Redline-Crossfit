@@ -249,5 +249,38 @@ nav a:hover {
   font-size: 1rem;
   line-height: 1.7;
 }
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.member {
+  text-align: center;
+}
+
+.member p {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-top: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  background: var(--color-avatar-bg);
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  border: 2px solid var(--color-border);
+  transition: border-color 0.2s;
+}
+
+.member:hover .avatar {
+  border-color: var(--color-primary);
+}
 
 /* ----------------------------------------------------------------------------------------- */
