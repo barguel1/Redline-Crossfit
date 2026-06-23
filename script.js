@@ -52,4 +52,34 @@ const schedule = {
         { title: "Open Gym", slots: ["8:00 AM – 11:00 AM"] },
         { title: "Mobility & Recovery", slots: ["11:00 AM"] }
       ]
-    };
+};
+const listEl = document.getElementById("schedule-list");
+    const tabsEl = document.getElementById("day-tabs");
+
+    function renderDay(day) {
+      const groups = schedule[day];
+      if (!groups || groups.length === 0) {
+        listEl.innerHTML = '<p class="schedule-empty">No sessions scheduled. Check back soon.</p>';
+        return;
+      }
+
+      listEl.innerHTML = groups.map(function (group) {
+        const slots = group.slots.map(function (time) {
+          return '<div class="schedule-slot"><span class="slot-time">' + time + '</span></div>';
+        }).join("");
+        return '<div class="schedule-group"><h2>' + group.title + '</h2>' + slots + '</div>';
+      }).join("");
+    }
+
+    tabsEl.addEventListener("click", function (e) {
+      const btn = e.target.closest(".day-tab");
+      if (!btn) return;
+      tabsEl.querySelectorAll(".day-tab").forEach(function (t) {
+        t.classList.remove("active");
+      });
+      btn.classList.add("active");
+      renderDay(btn.dataset.day);
+    });
+
+    
+    renderDay("mon");
