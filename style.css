@@ -619,6 +619,10 @@ nav a:hover {
   border-color: var(--color-primary);
   transform: translateY(-4px);
 }
+.plan-card--featured {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 24px var(--color-primary-glow);
+}
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
   background: var(--color-bg-footer);
