@@ -597,6 +597,15 @@ nav a:hover {
   color: var(--color-text-muted);
   font-size: 1rem;
 }
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  align-items: stretch;
+}
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
   background: var(--color-bg-footer);
