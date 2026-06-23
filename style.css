@@ -646,7 +646,11 @@ nav a:hover {
   color: var(--color-text-inverse);
   margin-bottom: 4px;
 }
-
+.plan-tagline {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
   background: var(--color-bg-footer);
