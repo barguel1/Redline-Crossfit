@@ -220,6 +220,13 @@ nav a:hover {
   margin-bottom: 40px;
   color: var(--color-text-inverse);
 }
-
+.about h1::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--color-primary);
+  margin: 10px auto 0;
+}
 
 /* ----------------------------------------------------------------------------------------- */
