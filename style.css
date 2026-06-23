@@ -667,6 +667,12 @@ nav a:hover {
   color: var(--color-text-muted);
   letter-spacing: 0.04em;
 }
+.plan-features {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+  flex-grow: 1;
+}
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
   background: var(--color-bg-footer);
