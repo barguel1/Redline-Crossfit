@@ -229,4 +229,25 @@ nav a:hover {
   margin: 10px auto 0;
 }
 
+.mission,
+.team {
+  margin-bottom: 40px;
+}
+
+.mission h2,
+.team h2 {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.mission p {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
 /* ----------------------------------------------------------------------------------------- */
