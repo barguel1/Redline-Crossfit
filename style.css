@@ -557,6 +557,15 @@ nav a:hover {
 .schedule-group {
   margin-bottom: 36px;
 }
+.schedule-group h2 {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-inverse);
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--color-primary);
+}
 
 
 /*---------------------------------------------------------------------------------------------------------*/
