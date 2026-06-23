@@ -549,6 +549,11 @@ nav a:hover {
   color: var(--color-text-inverse);
   font-weight: 700;
 }   
+.schedule-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px 24px 8px;
+}
 
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
