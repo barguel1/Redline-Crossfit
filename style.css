@@ -535,6 +535,10 @@ nav a:hover {
   cursor: pointer;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
+.day-tab:hover {
+  color: var(--color-text-inverse);
+  border-color: var(--color-primary);
+}
 
     
 /*---------------------------------------------------------------------------------------------------------*/
