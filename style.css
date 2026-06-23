@@ -297,3 +297,48 @@ nav a:hover {
   letter-spacing: 0.06em;
   margin-bottom: 10px;
 }
+.programs-hero p {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1px;
+  background: var(--color-border);
+  padding: 0;
+}
+.program-card {
+  background: var(--color-bg-card);
+  padding: 36px 28px;
+  transition: background 0.2s;
+}
+
+.program-card:hover {
+  background: #1f1f1f;
+}
+.program-icon {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.program-card h3 {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-inverse);
+  margin-bottom: 10px;
+}
+
+.program-card h3::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: var(--color-primary);
+  margin-top: 8px;
+}
