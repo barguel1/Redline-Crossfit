@@ -615,6 +615,10 @@ nav a:hover {
   padding: 36px 28px;
   transition: border-color 0.2s, transform 0.2s;
 }
+.plan-card:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-4px);
+}
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
   background: var(--color-bg-footer);
