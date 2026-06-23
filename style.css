@@ -566,7 +566,14 @@ nav a:hover {
   padding-bottom: 12px;
   border-bottom: 2px solid var(--color-primary);
 }
-
+.schedule-slot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 4px;
+  border-bottom: 1px solid var(--color-border);
+}
 
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
