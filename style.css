@@ -719,6 +719,14 @@ nav a:hover {
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
 }
+.trial-cta h2 {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-inverse);
+  margin-bottom: 10px;
+}
 
 
 /*---------------------------------------------------------------------------------------------------------*/
