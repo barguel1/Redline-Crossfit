@@ -681,6 +681,14 @@ nav a:hover {
   font-size: 0.92rem;
   line-height: 1.5;
 }
+.plan-features li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--color-primary);
+  font-weight: 700;
+}
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
   background: var(--color-bg-footer);
