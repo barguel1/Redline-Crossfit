@@ -638,6 +638,15 @@ nav a:hover {
   padding: 6px 16px;
   white-space: nowrap;
 }
+.plan-name {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-inverse);
+  margin-bottom: 4px;
+}
+
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
   background: var(--color-bg-footer);
