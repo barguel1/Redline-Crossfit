@@ -428,8 +428,37 @@ nav a:hover {
   transition: border-color 0.2s, box-shadow 0.2s;
   width: 100%;
 }
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-glow);
+}
+.form-group textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+.form-submit {
+  margin-top: 8px;
+}
+.form-submit button {
+  width: 100%;
+  padding: 14px;
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+}
 
-
+.form-submit button:hover {
+  background: var(--color-primary-dark);
+  box-shadow: 0 0 20px var(--color-primary-glow);
+}
 
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
