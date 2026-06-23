@@ -489,28 +489,38 @@ nav a:hover {
 }
 /*Schedule page------------------------------------------------------------------------------*/
 .schedule-hero {
-      padding: 48px 24px 28px;
-      text-align: center;
-      background: linear-gradient(160deg, #1a0000 0%, var(--color-bg) 60%);
-      border-bottom: 1px solid var(--color-border);
-    }
-    .schedule-hero h1 {
-      font-family: 'Oswald', Arial, sans-serif;
-      font-size: clamp(1.8rem, 5vw, 3rem);
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      margin-bottom: 8px;
-    }
-    .schedule-hero h1 span {
-      color: var(--color-primary);
-    }
-    .schedule-hero p {
-      color: var(--color-text-muted);
-      font-size: 1rem;
-      max-width: 480px;
-      margin: 0 auto;
-    }
+  padding: 48px 24px 28px;
+  text-align: center;
+  background: linear-gradient(160deg, #1a0000 0%, var(--color-bg) 60%);
+  border-bottom: 1px solid var(--color-border);
+}
+.schedule-hero h1 {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+.schedule-hero h1 span {
+  color: var(--color-primary);
+  }
+.schedule-hero p {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.day-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 18px 24px;
+  max-width: 740px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--color-border);
+  scrollbar-width: none;
 
+}
     
 /*---------------------------------------------------------------------------------------------------------*/
 footer {
