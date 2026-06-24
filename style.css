@@ -126,6 +126,20 @@ nav a:hover {
     linear-gradient(160deg, #1a0000 0%, var(--color-bg) 55%);
 }
 
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+}
+.hero-eyebrow {
+  display: inline-block;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 18px;
+}
 .hero h1 {
   font-family: 'Oswald', Arial, sans-serif;
   font-size: clamp(2rem, 6vw, 4rem);
