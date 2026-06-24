@@ -47,9 +47,7 @@ header {
   top: 0;
   z-index: 100;
 }
-header span{
-  color: var(--color-primary);
-}
+
 .logo {
   font-family: 'Oswald', Arial, sans-serif;
   font-size: 1.4rem;
