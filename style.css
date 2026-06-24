@@ -57,8 +57,11 @@ header {
   text-transform: uppercase;
 }
 
-.logo span {
-  color: var(--color-primary);
+.logo-mark {
+  height: 42px;
+  width: 42px;
+  flex-shrink: 0;
+  display: block;
 }
 
 .menu-toggle,
