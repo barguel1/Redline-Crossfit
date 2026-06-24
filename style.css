@@ -56,7 +56,7 @@ header {
   color: var(--color-text-inverse);
   text-transform: uppercase;
 }
-.logo .accent {
+.logo .accent, .logo span {
   color: var(--color-primary);
 }
 
